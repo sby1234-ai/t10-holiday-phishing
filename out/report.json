@@ -1,0 +1,66 @@
+{
+  "source_file": "kisa_phishing_20241231.csv",
+  "rows_read": 131752,
+  "bad_rows": 0,
+  "dates_out_of_2024": [],
+  "days_with_zero_unique": 0,
+  "unique": {
+    "설": {
+      "window": "2024-01-26~2024-02-08",
+      "mean": 156.07142857142858,
+      "ratio_vs_base": 0.5313739377811215,
+      "rank": 306,
+      "n_windows": 320,
+      "top_pct": 0.95625,
+      "pass_top10": false
+    },
+    "추석": {
+      "window": "2024-09-02~2024-09-15",
+      "mean": 167.78571428571428,
+      "ratio_vs_base": 0.5712573820813979,
+      "rank": 270,
+      "n_windows": 320,
+      "top_pct": 0.84375,
+      "pass_top10": false
+    },
+    "base_mean": 293.7129909365559,
+    "n_base_days": 331,
+    "mannwhitney": {
+      "U": 1609.0,
+      "z": -5.737835688328529,
+      "p_one_sided": 0.9999999952052959,
+      "n_pre": 28,
+      "n_base": 331
+    }
+  },
+  "raw": {
+    "설": {
+      "window": "2024-01-26~2024-02-08",
+      "mean": 179.21428571428572,
+      "ratio_vs_base": 0.4738770456257275,
+      "rank": 313,
+      "n_windows": 320,
+      "top_pct": 0.978125,
+      "pass_top10": false
+    },
+    "추석": {
+      "window": "2024-09-02~2024-09-15",
+      "mean": 224.64285714285714,
+      "ratio_vs_base": 0.5939989272590327,
+      "rank": 263,
+      "n_windows": 320,
+      "top_pct": 0.821875,
+      "pass_top10": false
+    },
+    "base_mean": 378.18731117824774,
+    "n_base_days": 331,
+    "mannwhitney": {
+      "U": 1735.5,
+      "z": -5.497929129697032,
+      "p_one_sided": 0.999999980786135,
+      "n_pre": 28,
+      "n_base": 331
+    }
+  },
+  "verdict": "기각"
+}
